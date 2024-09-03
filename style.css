@@ -285,7 +285,7 @@ a {
   .logo {
     position: relative; }
     .logo::after {
-      content: url(/img/psevdo-el-1.svg);
+      content: url(./static/psevdo-el-1.svg);
       position: absolute;
       margin-left: 113px;
       margin-top: -39px; } }
@@ -300,14 +300,14 @@ a {
   .logo {
     position: relative; }
     .logo::before {
-      content: url(/img/psevdo-el-1.svg);
+      content: url(./static/psevdo-el-1.svg);
       position: absolute;
       margin-left: -21px;
       margin-top: 10px; }
   .buttons__connection {
     margin-left: 202px; }
     .buttons__connection::after {
-      content: url(/img/psevdo-el-1.svg);
+      content: url(./static/psevdo-el-1.svg);
       position: absolute;
       margin-left: 174px;
       margin-top: 10px; } }
@@ -356,7 +356,7 @@ a {
   .burger-list__item--active {
     color: #7E7E82; }
   .burger-list__item--active::after {
-    content: url(/img/psevdo-el-2.svg);
+    content: url(./static/psevdo-el-2.svg);
     position: absolute;
     left: 0;
     margin-left: -15px; }
@@ -486,7 +486,7 @@ a {
     font-size: 24px;
     margin-bottom: 24px; }
     .modal-feedback__title::before {
-      content: url(/img/psevdo-el-2.svg);
+      content: url(./static/psevdo-el-2.svg);
       position: absolute;
       margin-left: -15px;
       margin-top: 5px; }
@@ -574,7 +574,7 @@ a {
     font-size: 24px;
     margin-bottom: 24px; }
     .modal-order-call__title::before {
-      content: url(/img/psevdo-el-2.svg);
+      content: url(./static/psevdo-el-2.svg);
       position: absolute;
       margin-left: -15px;
       margin-top: 5px; }
@@ -673,7 +673,7 @@ a {
   line-height: 143%;
   letter-spacing: -0.02em; }
   .title::before {
-    content: url(/img/psevdo-el-2.svg);
+    content: url(./static/psevdo-el-2.svg);
     position: absolute;
     margin-left: -30px;
     margin-top: 8px; }
@@ -685,7 +685,7 @@ a {
     padding-top: 24px;
     padding-bottom: 24px; }
   .title::before {
-    content: url(/img/psevdo-el-2.svg);
+    content: url(./static/psevdo-el-2.svg);
     position: absolute;
     margin-left: -15px;
     margin-top: 8px; } }
@@ -697,7 +697,7 @@ a {
     padding-top: 28px;
     padding-bottom: 28px; }
   .title::before {
-    content: url(/img/psevdo-el-2.svg);
+    content: url(./static/psevdo-el-2.svg);
     position: absolute;
     margin-left: -23px;
     margin-top: 8px; } }
@@ -1142,7 +1142,7 @@ a {
     padding-bottom: 45px;
     cursor: pointer; }
     .prices-services__btn::after {
-      content: url(/img/strelka-pink.svg);
+      content: url(./static/strelka-pink.svg);
       position: absolute;
       margin-left: 7px;
       margin-top: 2px; }
