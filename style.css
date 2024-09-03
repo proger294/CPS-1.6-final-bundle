@@ -768,7 +768,7 @@ a {
     position: relative;
     cursor: pointer; }
     .info__btn-read-more::before {
-      content: url(/img/double-strelka.svg);
+      content: url(./static/double-strelka.svg);
       transform: scale(1.2);
       position: absolute;
       left: 5px; }
@@ -945,7 +945,7 @@ a {
   position: relative;
   cursor: pointer; }
   .btn-show-all::before {
-    content: url(/img/double-strelka.svg);
+    content: url(./static/double-strelka.svg);
     position: absolute;
     left: 5px;
     transform: scale(1.2); }
