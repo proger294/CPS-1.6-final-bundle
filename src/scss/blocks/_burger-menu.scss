@@ -55,7 +55,7 @@
     color: $text-gray;
   }
   &__item--active::after {
-    content: url(../img/psevdo-el-2.svg);
+    content: url(/img/psevdo-el-2.svg);
     position: absolute;
     left: 0;
     margin-left: -15px;

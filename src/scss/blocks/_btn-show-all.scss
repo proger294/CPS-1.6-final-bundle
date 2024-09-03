@@ -8,7 +8,7 @@
   position: relative;
   cursor: pointer;
   &::before {
-    content: url(../img/double-strelka.svg);
+    content: url(/img/double-strelka.svg);
     position: absolute;
     left: 5px;
     transform: scale(1.2);

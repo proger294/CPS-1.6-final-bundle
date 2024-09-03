@@ -53,7 +53,7 @@
   .logo {
     position: relative;
     &::after {
-      content: url(../img/psevdo-el-1.svg);
+      content: url(/img/psevdo-el-1.svg);
       position: absolute;
       margin-left: 113px;
       margin-top: -39px;
@@ -75,7 +75,7 @@
   .logo {
     position: relative;
     &::before {
-      content: url(../img/psevdo-el-1.svg);
+      content: url(/img/psevdo-el-1.svg);
       position: absolute;
       margin-left: -21px;
       margin-top: 10px;
@@ -85,7 +85,7 @@
   .buttons__connection {
     margin-left: 202px;
     &::after {
-      content: url(../img/psevdo-el-1.svg);
+      content: url(/img/psevdo-el-1.svg);
       position: absolute;
       margin-left: 174px;
       margin-top: 10px;
