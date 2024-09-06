@@ -21,7 +21,6 @@
     cursor: pointer;
     &::before {
       content: url(../img/double-strelka.svg);
-      transform: scale(1.2);
       position: absolute;
       left: 5px;
     }
@@ -30,6 +29,7 @@
     width: 320px;
     height: 176px;
     left: 0;
+    // position: absolute;
   }
 }
 @media (min-width: 768px) {

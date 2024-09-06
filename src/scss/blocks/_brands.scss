@@ -1,7 +1,8 @@
 .brands {
   background-color: $bg-color;
   border-bottom: 1px solid $border-bottom;
-  min-height: 154px;
+  // min-height: 154px;
+  // padding-top: 95px;
   &__btn-show-all {
     display: none;
   }

@@ -82,7 +82,7 @@
       cursor: pointer;
     }
 
-    &__item--active {
+  .languages__item--active {
       color: $text-gray;
     }
   }
@@ -176,7 +176,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1366px) {
   .navigation {
     &__btn-burger {
       display: none;
