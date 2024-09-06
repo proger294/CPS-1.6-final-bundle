@@ -170,12 +170,6 @@ a {
   font-style: normal;
   src: url(./fonts/TTLakes-Bold.woff2) format(woff2), url(./fonts/TTLakes-Bold.woff) format(woff); }
 
-@font-face {
-  font-family: "TT Lakes Condensed Medium";
-  font-weight: 500;
-  font-style: normal;
-  src: url(./fonts/TTLakesCondensed-Medium.woff2) format(woff2), url(./fonts/TTLakesCondensed-Medium.woff) format(woff); }
-
 .body__global-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -197,7 +191,7 @@ a {
     opacity: 0.9;
     visibility: visible; }
 
-@media (min-width: 1440px) {
+@media (min-width: 1366px) {
   .body__inner {
     display: flex; }
   .body__burger-menu {
@@ -216,7 +210,7 @@ a {
   .container {
     padding: 0 32px; } }
 
-@media (min-width: 1440px) {
+@media (min-width: 1366px) {
   .container {
     background-color: #F8F8F8; } }
 
@@ -377,7 +371,7 @@ a {
   gap: 7px; }
   .contacts__languages__item {
     cursor: pointer; }
-  .contacts__languages__item--active {
+  .contacts__languages .languages__item--active {
     color: #7E7E82; }
 
 .connection {
@@ -436,7 +430,7 @@ a {
     .contacts__languages {
       margin-top: 40px; } }
 
-@media (min-width: 1440px) {
+@media (min-width: 1366px) {
   .navigation__btn-burger {
     display: none; }
   .navigation__btn-search {
@@ -714,7 +708,12 @@ a {
       align-items: center;
       gap: 8px; }
     .repair__text {
-      display: inline-block; } }
+      display: inline-block; }
+  .title::before {
+    content: url(./static/psevdo-el-2.svg);
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 7px; } }
 
 .top-menu {
   overflow-x: auto;
@@ -769,7 +768,6 @@ a {
     cursor: pointer; }
     .info__btn-read-more::before {
       content: url(./static/double-strelka.svg);
-      transform: scale(1.2);
       position: absolute;
       left: 5px; }
   .info__image {
@@ -814,8 +812,7 @@ a {
 
 .brands {
   background-color: #F8F8F8;
-  border-bottom: 1px solid #D9FFF5;
-  min-height: 154px; }
+  border-bottom: 1px solid #D9FFF5; }
   .brands__btn-show-all {
     display: none; }
   .brands__slides-wrapper {
@@ -891,7 +888,7 @@ a {
   padding-top: 16px;
   padding-bottom: 16px; }
 
-@media (min-width: 1440px) {
+@media (min-width: 1366px) {
   .sub-title {
     background-color: #F8F8F8; } }
 
@@ -947,10 +944,9 @@ a {
   .btn-show-all::before {
     content: url(./static/double-strelka.svg);
     position: absolute;
-    left: 5px;
-    transform: scale(1.2); }
+    left: 5px; }
   .btn-show-all--pressed::before {
-    transform: scaleY(-1.2); }
+    transform: scaleY(-1); }
 
 .repair-technique {
   background-color: #F8F8F8;
