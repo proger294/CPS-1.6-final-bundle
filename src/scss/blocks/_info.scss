@@ -1,6 +1,6 @@
 .info {
   font-size: 15px;
-  font-family: "TT Lakes Regular";
+  font-family: 'TT Lakes Regular';
   background-color: $bg-color;
   border-bottom: 1px solid $border-bottom;
   &__inner {
@@ -10,12 +10,15 @@
     &--hidden-xs {
       display: none;
     }
+    &--visible {
+      display: block;
+    }
   }
   &__btn-read-more {
     border: none;
     background-color: transparent;
     font-size: 16px;
-    font-family: "TT Lakes Medium";
+    font-family: 'TT Lakes Medium';
     padding: 16px 25px;
     position: relative;
     cursor: pointer;
@@ -24,12 +27,14 @@
       position: absolute;
       left: 5px;
     }
+    &--pressed::before {
+      transform: scaleY(-1);
+    }
   }
   &__image {
     width: 320px;
     height: 176px;
     left: 0;
-    // position: absolute;
   }
 }
 @media (min-width: 768px) {
@@ -58,6 +63,11 @@
       height: 208px;
       position: static;
     }
+    &__text {
+      &--visible {
+        display: block;
+      }
+    }
   }
 }
 
@@ -85,3 +95,9 @@
     }
   }
 }
+// .info__paragraph-two--visible{
+//   display: block;
+// }
+
+// .info__text--visible{
+// }

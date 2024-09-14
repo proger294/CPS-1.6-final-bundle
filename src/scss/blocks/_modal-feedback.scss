@@ -1,23 +1,25 @@
 .modal-feedback {
-  background-color: $bg-color-white;
-  width: 320px;
-  height: 676px;
-  padding: 24px 16px 0 16px;
   position: absolute;
-  right: 0;
+  top: 0;
+  right: -100%;
+  width: 320px;
+  height: 100%;
+  padding: 24px 16px 0 16px;
   z-index: 300;
-  transform: translateY(-100%);
-  transition: transform 0.5s;
+  background-color: $bg-color-white;
+  transition: right 0.5s ease;
   &--open {
-    transform: translateY(0%);
-    transition: transform 0.5s;
-    box-shadow: 30px 0px 100px 0px rgba(145, 144, 144, 0.5);
+    right: 0;
+    .modal-feedback__btn-top {
+      display: flex;
+    }
   }
   &__btn-top {
     margin-bottom: 40px;
+    display: none;
   }
   &__title {
-    font-family: "TT Lakes Bold";
+    font-family: 'TT Lakes Bold';
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
@@ -32,7 +34,7 @@
   &__label {
     display: block;
     margin-bottom: 16px;
-    font-family: "TT Lakes Medium";
+    font-family: 'TT Lakes Medium';
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
@@ -58,7 +60,7 @@
     cursor: pointer;
   }
   &__info {
-    font-family: "TT Lakes Medium";
+    font-family: 'TT Lakes Medium';
     font-weight: 500;
     font-style: normal;
     font-size: 14px;
@@ -76,10 +78,17 @@
     margin-left: 168px;
   }
 }
+@media (min-width: 320px) and (max-width: 425px) {
+  .modal-feedback {
+    width: 100%;
+  }
+}
 @media (min-width: 768px) {
   .modal-feedback {
     width: 440px;
     padding: 40px 32px 0 32px;
+    // padding: 24px 24px 32px 24px;
+
     border-left: 1px solid $border-bottom;
 
     &__btn-top {

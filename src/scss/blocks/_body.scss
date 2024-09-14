@@ -3,10 +3,10 @@
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
-    
   }
   &__inner {
     position: relative;
+    overflow-x: hidden;
   }
   &__modal-state {
     width: 100%;

@@ -1,5 +1,7 @@
 import '../scss/style.scss'
 
+import './read-more'
+
 import './swiper'
 
 import './show-slides'
